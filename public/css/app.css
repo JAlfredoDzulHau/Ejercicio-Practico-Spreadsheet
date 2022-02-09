@@ -1,0 +1,51 @@
+* body{
+    background-color: #F810E3;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    padding-left: 2vw;
+}
+.develop {
+    position: relative;
+}
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition:  all .3s ease 0s;
+}
+
+li:hover {
+    background-color: #10F86B;
+}
+
+.develop {
+    position: relative;
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-second > li {
+    width: 133px;
+    transform: translateX(-50px);
+    border-bottom:solid 1px #fff ;
+    text-align: center;
+    background-color: #438cfa;
+}
+
+.ul-second > li:hover {
+    background-color: #10F86B;
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+
